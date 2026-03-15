@@ -10,19 +10,25 @@ Miao, Z., Wang, J., Park, K., Kuang, D., and Kim, J. **Depth-corrected multi-fac
 
 ## Installation
 
+Requires **Python >= 3.9**.
+
+### From PyPI
+
 ```bash
-pip install -e .
+pip install pacs-atac
 ```
 
 With AnnData integration:
 
 ```bash
-pip install -e ".[anndata]"
+pip install "pacs-atac[anndata]"
 ```
 
-For development:
+### From source (development)
 
 ```bash
+git clone https://github.com/Zhen-Miao/pacs-py.git
+cd pacs-py
 pip install -e ".[dev]"
 ```
 
